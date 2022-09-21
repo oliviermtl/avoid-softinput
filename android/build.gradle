@@ -8,7 +8,7 @@ buildscript {
         minSdkVersion = Integer.parseInt(findProperty('android.minSdkVersion') ?: '21')
         compileSdkVersion = 33
         targetSdkVersion = Integer.parseInt(findProperty('android.targetSdkVersion') ?: '31')
-       
+
         kotlinVersion = '1.6.10'
         
         frescoVersion = findProperty('expo.frescoVersion') ?: '2.5.0'
